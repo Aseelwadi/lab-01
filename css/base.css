@@ -1,28 +1,16 @@
-p {
-    display: inline-block;
-    font-weight: bold;
+* {
+    box-sizing: border-box;
 }
 
-header,
-footer,
-div {
-    border: 1px solid rgb(34, 14, 14);
+body {
+    width: 960px;
+    font-family: serif;
+    font-size: 50%;
+    margin: auto;
 }
 
-.grid-container>div {
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-areas: 'A A A A A';
-    grid-gap: 10px;
-    /* grid-column-start: 1;
-    grid-column-end: 4; */
-    display: inline-grid;
-    background-color: #2196F3;
-    padding: 10px;
+@media only screen and (max-width: 768px) {
+    body {
+        width: 480px;
+    }
 }
