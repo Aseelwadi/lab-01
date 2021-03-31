@@ -1,16 +1,24 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    width: 960px;
-    font-family: serif;
-    font-size: 50%;
-    margin: auto;
-}
-
-@media only screen and (max-width: 768px) {
-    body {
-        width: 480px;
+    * {
+        box-sizing: border-box;
     }
-}
+    
+    .body {
+        width: 1000px;
+        font-family: serif;
+        margin: auto;
+    }
+    
+    .container {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: .8fr 1.5fr 1.2fr 0.8fr;
+        grid-template-areas: " nav nav nav nav nav " "sidebar content0 content0 content1 content1 " " sidebar content2 content3 content4 content5 " "sidebar footer footer footer footer ";
+        grid-gap: 0.2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #004d40;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+    }

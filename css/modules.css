@@ -1,52 +1,77 @@
-  /* -------------------Mobile------------------ */
-  
-  @media screen and (max-width: 768px) {
-      section {
-          text-align: center;
-      }
-      #a {
-          line-height: 75px;
-      }
-      #b {
-          line-height: 150px;
-      }
-      #c,
-      #d {
-          line-height: 125px;
-      }
-      #e,
-      #f,
-      #g,
-      #h {
-          line-height: 250px;
-      }
-      #i {
-          line-height: 80px;
-      }
-  }
-  /* --------------------Desktop---------------- */
-  
-  @media screen and (min-width: 768px) {
-      section {
-          text-align: center;
-      }
-      #a {
-          line-height: 100px;
-      }
-      #b {
-          line-height: 600px;
-      }
-      #c,
-      #d {
-          line-height: 200px;
-      }
-      #e,
-      #f,
-      #g,
-      #h {
-          line-height: 250px;
-      }
-      #i {
-          line-height: 150px;
-      }
-  }
+/* .container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .8fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas: " nav nav nav nav nav " "sidebar content0 content0 content1 content1 " " sidebar content2 content3 content4 content5 " "sidebar footer footer footer footer ";
+    grid-gap: 0.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #004d40;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+nav {
+    background: #a7ffeb;
+    grid-area: nav;
+    padding-top: var(--main-padding);
+}
+
+#sidebar {
+    background: #f5b0cd;
+    grid-area: sidebar;
+    padding-top: var(--main-padding);
+}
+
+#content0 {
+    background: #a7ffeb;
+    grid-area: content0;
+    padding-top: var(--main-padding);
+}
+
+#content1 {
+    background: #cbeca5;
+    grid-area: content1;
+    padding-top: var(--main-padding);
+}
+
+#content2 {
+    background: #f0da9f;
+    grid-area: content2;
+    padding-top: var(--main-padding);
+}
+
+#content3 {
+    background: #73ffba;
+    grid-area: content3;
+    padding-top: var(--main-padding);
+}
+
+#content4 {
+    background: #f8acac;
+    grid-area: content4;
+    padding-top: var(--main-padding);
+}
+
+#content5 {
+    background: #a6acf5;
+    grid-area: content5;
+    padding-top: var(--main-padding);
+}
+
+#content6 {
+    background: #73ffba;
+    grid-area: content6;
+    padding-top: var(--main-padding);
+}
+
+footer {
+    background: #1de9b6;
+    grid-area: footer;
+    padding-top: var(--main-padding);
+}
+
+
+} */
